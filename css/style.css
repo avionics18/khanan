@@ -1,0 +1,281 @@
+:root{
+	--themeColor: #11FFA6;
+}
+
+/**{ outline: 1px solid rgba(255, 0, 0, 0.25);  }*/
+
+/*new defined utilities*/
+.my-card{
+	background-color: rgba(34,34,34,0.25);
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 18px;
+}
+.my-card img{
+	width: 100%;
+	filter: grayscale(100%);
+}
+.btn-gradient{
+	background-image: linear-gradient(45deg, #08675C, #12C8B6);
+	color: white !important;
+	box-shadow: 0 5px 16px rgba(0,0,0,0.8);
+}
+
+.btn-lighter{
+	background-image: linear-gradient(45deg, #aaaaaa, #ffffff);
+	color: #666 !important;
+	box-shadow: 0 5px 16px rgba(0,0,0,0.8);
+}
+
+.my-shadow{
+	box-shadow: 0 20px 45px rgba(0,0,0,0.65);
+}
+
+.text-lighter{
+	color: rgba(255,255,255,0.85);
+}
+
+
+
+
+.page-container{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.page-container .page-back{
+	width: 120%;
+	height: 120%;
+	left: -10%;
+	top: -10%;
+	position: absolute;
+	background-image: url('../img/my/11.jpg');
+	/*background-image: linear-gradient(black, black);*/
+	background-size: cover;
+	background-position: center -250px;
+	filter: blur(0px);
+	z-index: 2;
+}
+
+.page-container img{
+	position: absolute;
+	top: 170px;
+	z-index: 3;
+}
+
+.page-container .main-btn{
+	position: absolute;
+	top: 500px;
+	text-align: center;
+	width: 100%;
+	z-index: 3;
+}
+
+.page-container .main-btn a{
+	padding: 8px 36px;
+	font-weight: bold;
+}
+
+.page-container .main-btn a:hover{
+	transition: 0.3s;
+}
+
+
+/*Header Mobile*/
+header{
+	display: none;
+	height: 90vh;
+	background: url('../img/my/11-mobile.jpg') no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+header:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(0deg, rgba(34, 34, 34, 1), transparent);
+	bottom: 0px;
+	left: 0px;
+}
+
+
+
+
+/*about us*/
+.abt-us{
+	background-color: #222;
+	padding: 80px 0;
+}
+
+#photosTop{
+	margin-top: 30px;
+}
+
+.abt-us .box1{
+	flex: 1;
+	height: 200px;
+}
+
+.abt-us .box2{
+	flex: 1;
+	height: 295px;
+}
+
+.abt-us .box3{
+	height: 180px;
+	width: 100%;
+}
+
+.abt-us .box4{
+	height: 240px;
+	width: 100%;
+}
+
+.abt-us .abt-heading{
+	color: var(--themeColor);
+}
+
+.abt-us .abt-content{
+	font-family: lato, sans-serif;
+}
+
+
+/*Events*/
+#events{
+	/*background-color: #111;*/
+	background-image: url('https://allfreedesigns.com/wp-content/uploads/2015/06/black-patterns-16.jpg');
+	padding-bottom: 100px;
+}
+
+#events .design1{
+	width: 100%;
+	height: 100px;
+	background-color: #222;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 0%, 0 100%);
+}
+
+span.heading{
+	 border-bottom: 1px solid var(--themeColor);
+	 padding-bottom: 8px;
+}
+
+
+#events .box{
+	display: block;
+    border: 0.5px solid var(--themeColor);
+    padding: 20px 15px;
+    margin:15px 0;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#events .box:hover{
+    cursor: pointer;
+    background-color: var(--themeColor);
+    box-shadow: 0px 15px 18px rgba(0,0,0,1);
+}
+#events .box .box-img{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#events .box p{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 5px;
+    margin-bottom: 0.5rem !important;
+    background-color: #fff;
+    color: #2b0a3d;
+    opacity:0.6;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.65);
+}
+
+#events .box h4{
+	color: #ebebeb;
+	font-family: oswald;
+}
+
+#events .box:hover h4{
+	color: #222;
+	transition: 0.3s;
+}
+
+
+/*Campus Ambassador*/
+#campus_amb{
+	background: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../img/my/ca_cover.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	box-shadow: inset 0 0px 10px rgba(0,0,0,0.9);
+}
+
+
+/*Our Sponsors*/
+#sponsors{
+	background-color: #000;
+	padding: 40px 0;
+}
+
+
+
+/* Gallery */
+#gallery{
+	padding: 80px 0;
+	background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/papyrus-dark.png');
+	border-top: 10px solid #242424;
+	border-bottom: 10px solid #242424;
+}
+
+
+/* Footer */
+#footer{
+	padding: 60px 0;
+	background-image: linear-gradient(180deg, #111111 0%, #000000 100%); 
+	color: #dfdfdf;
+}
+#footer .container{
+	opacity: 0.7;
+}
+
+hr{
+	background: rgba(255,255,255,0.15);
+}
+
+
+
+
+
+/*Responsive Media queries*/
+@media (max-width: 575.98px) {
+	header{
+		display: flex;
+	}
+	.page-container{
+		display: none;
+	}
+	.abt-us{
+		padding: 20px 0 50px 0;
+	}
+	#campus_amb h2{
+		text-align: center;
+	}
+	#campus_amb p{
+		text-align: justify;
+	}
+	#ca-btn{
+		text-align: center;
+	}
+	#sponsors h2{
+		text-align: center;
+	}
+}
