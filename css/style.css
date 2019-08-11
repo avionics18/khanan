@@ -380,7 +380,7 @@ hr{
 @media (max-width: 575.98px) {
 	header{
 		display: flex;
-		height: 70vh;
+		height: 75vh;
 	}
 	.navbar{
 		padding-top: 0;
