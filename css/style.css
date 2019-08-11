@@ -133,13 +133,13 @@ nav .navbar-brand{
 
 .page-container img{
 	position: absolute;
-	top: 170px;
+	top: 160px;
 	z-index: 3;
 }
 
 .page-container .main-btn{
 	position: absolute;
-	top: 500px;
+	top: 450px;
 	text-align: center;
 	width: 100%;
 	z-index: 3;
@@ -380,7 +380,7 @@ hr{
 @media (max-width: 575.98px) {
 	header{
 		display: flex;
-		height: 80vh;
+		height: 70vh;
 	}
 	.navbar{
 		padding-top: 0;
