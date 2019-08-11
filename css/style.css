@@ -84,7 +84,7 @@ nav .navbar-brand{
 }
 
 
-@media (max-width: 575.98px){
+@media (max-width: 991.98px){
 	.navbar{
 		padding: 0.5rem 1rem;
 	}
@@ -331,18 +331,52 @@ span.heading{
 	font-family: lato, sans-serif;
 }
 #footer .container{
-	opacity: 0.7;
+	opacity: 0.9;
 }
-
 hr{
 	background: rgba(255,255,255,0.15);
 }
 
+#fb-icon{
+	display: inline-block;
+	background-color: #3b5998;
+	border-radius: 40px;
+	color: white;
+	padding: 8px 16px;
+}
+#insta-icon{
+	display: inline-block;
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	border-radius: 40px;
+	color: white;
+	padding: 8px 13px;
+}
+#college-icon{
+	display: inline-block;
+	background-color: rgb(192, 45, 45);
+	border-radius: 40px;
+	color: white;
+	padding: 8px 11px;
+}
 
 
 
 
-/*Responsive Media queries*/
+@media (max-width: 991.98px){
+	header{
+		display: flex;
+	}
+	.navbar{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.page-container{
+		display: none;
+	}
+}
+
+
 @media (max-width: 575.98px) {
 	header{
 		display: flex;
