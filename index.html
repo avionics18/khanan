@@ -18,101 +18,141 @@
 </head>
 <body>
 
+	<!-- Dopest Navbar -->
+	<nav class="navbar navbar-expand-sm dope-navbar">
 
-<!-- <div class="navBar">
-	<div class="container">
-		<div class="row">
-			<div class="offset-5 col-3">
-				<div class="card">
-					<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quasi.</div>
-				</div>
+		<div class="container">
+			<!-- Navbar Brand -->
+			<a class="navbar-brand order-sm-2" href="#">
+				<img src="img/my/logo.png" alt="khanan logo">
+			</a>
+			<!-- Hamburger Icon -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- The FULL Height Navigation -->
+			<div class="collapse navbar-collapse order-sm-1 dope-left" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#aboutUs">ABOUT US <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#events">EVENTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sponsors">SPONSORS</a>
+					</li>
+				</ul>
 			</div>
+			<!-- The FULL Height Navigation -->
+			<div class="collapse navbar-collapse order-sm-3 dope-right" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#!">OUR TEAM</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">REGISTER</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#!">Participant</a>
+							<a class="dropdown-item" href="#campus_amb">Campus Ambassador</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+
+	</nav>
+
+
+	<!-- HERO Section -->
+	<div class="page-container">
+		<div class="page-back"></div>
+		<img src="img/my/Group.png" alt="" class="w-100">
+		<div class="main-btn">
+			<a href="#!" class="btn btn-gradient rounded-pill mr-4 border-0">REGISTER</a>
+			<a href="#!" class="btn btn-lighter rounded-pill ml-4 border-0">EXPLORE</a>
 		</div>
 	</div>
-</div> -->
 
-
-<!-- HERO Section -->
-<div class="page-container">
-	<div class="page-back"></div>
-	<img src="img/my/Group.png" alt="" class="w-100">
-	<div class="main-btn">
-		<a href="#!" class="btn btn-gradient rounded-pill mr-4 border-0">REGISTER</a>
-		<a href="#!" class="btn btn-lighter rounded-pill ml-4 border-0">EXPLORE</a>
-	</div>
-</div>
-
-<!-- Mobile Version -->
-<header class="justify-content-center align-items-center">
-	<div class="pt-5">
-		<img src="img/my/Group2.png" alt="" class="w-100">
-		<div class="text-center pt-4">
-			<a href="#!" class="btn btn-sm btn-gradient rounded-pill mr-2 border-0" style="padding: 5px 26px;">REGISTER</a>
-			<a href="#!" class="btn btn-sm btn-lighter rounded-pill ml-2 border-0" style="padding: 5px 26px;">EXPLORE</a>
-		</div>
-	</div>
-</header>
-
-
-<!-- ==============================DONOT DISTURB THIS======================================= -->
-
-
-
-<!-- About Us -->
-<div class="abt-us">
-	<div class="container">
-		<div class="row">
-			<!-- .photos-top -->
-			<div class="col-md-5 pr-0" id="photosTop">
-				<div class="d-flex align-items-end">
-					<div class="box1"><img src="img/my/gallery21.jpg" class="img-fluid" style="object-fit: cover;height: 200px; width:100%;"></div>
-					<div class="box2 my-shadow"><img src="img/my/gallery14.jpg" class="img-fluid" style="object-fit: cover; height: 295px;width:100%;"></div>
-				</div>
+	<!-- Mobile Version -->
+	<header class="justify-content-center align-items-center">
+		<div class="pt-5">
+			<img src="img/my/Group2.png" alt="" class="w-100">
+			<div class="text-center pt-4">
+				<a href="#!" class="btn btn-sm btn-gradient rounded-pill mr-2 border-0" style="padding: 5px 26px;">REGISTER</a>
+				<a href="#!" class="btn btn-sm btn-lighter rounded-pill ml-2 border-0" style="padding: 5px 26px;">EXPLORE</a>
 			</div>
-			<!-- about us main -->
-			<div class="col-md-7">
-				<div class="px-4 pt-4">
-					<!-- subheadings -->
-					<p class="abt-heading m-0">KHANAN 2019</p>
-					<p class="abt-heading m-0 d-none">SME IIT(ISM)</p>
-					<!-- heading -->
-					<div class="d-flex">
-						<h2 class="text-white" style="flex: 1; font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;">ABOUT US</h2>
-						<div>
-							<button class="btn btn-outline-secondary btn-sm" onclick="activateAbtUs()"><i class="fa fa-arrow-left"></i></button>
-							<button class="btn btn-outline-secondary btn-sm" onclick="activateAbtUs()"><i class="fa fa-arrow-right"></i></button>
+		</div>
+	</header>
+
+
+	<!-- ==============================DONOT DISTURB THIS======================================= -->
+
+
+
+	<!-- About Us -->
+	<div class="abt-us" id="aboutUs">
+		<div class="container">
+			<div class="row">
+				<!-- .photos-top -->
+				<div class="col-md-5 pr-0" id="photosTop">
+					<div class="d-flex align-items-end">
+						<div class="box1"><img src="img/my/gallery21.jpg" class="img-fluid" style="object-fit: cover;height: 200px; width:100%;"></div>
+						<div class="box2 my-shadow"><img src="img/my/gallery14.jpg" class="img-fluid" style="object-fit: cover; height: 295px;width:100%;"></div>
+					</div>
+				</div>
+				<!-- about us main -->
+				<div class="col-md-7">
+					<div class="px-4 pt-4">
+						<!-- subheadings -->
+						<p class="abt-heading m-0">KHANAN 2019</p>
+						<!-- heading -->
+						<div class="d-flex align-items-center">
+						    <h2 class="text-white" style="flex: 1; font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;">ABOUT US</h2>
+						    <ul class="nav nav-pills">
+						        <li class="nav-item"><a href="#khanan" class="nav-link active" id="pills-khanan-tab" data-toggle="pill"><small><i class="fa fa-arrow-left"></small></i></a></li>
+						        <li class="nav-item ml-2"><a href="#sme" class="nav-link" id="pills-sme-tab" data-toggle="pill"><small><i class="fa fa-arrow-right"></small></i></a></li>
+						    </ul>
+						</div>
+						<div class="dropdown-divider m-0" style="opacity: 0.25;"></div>
+						<!-- content - khanan and sme -->
+						<div class="tab-content">
+						    <div class="tab-pane abt-content text-lighter fade show active" id="khanan">
+						        <small>The annual Mining Fest “KHANAN-2019” aims to bring the students from Different institutions offering mining & allied courses in the country on a common platform and would help them showcasing their skills. A series of events including panel discussion, guest lectures by eminent personalities in the industry, paper presentations, case studies etc. would be conducted during the three day festival. It would provide a real life environment to the aspiring Mining & Earth Sciences students and would expose them to the real world problems and challenges in the industry. The summit seeks to improve decision making and problem solving skills of the students and inculcate a sense of professionalism among them.</small>
+						    </div>
+						    <div class="tab-pane abt-content text-lighter fade" id="sme">
+						        <small>SME-IIT(ISM) Student Chapter was inaugurated in May 2011 under the aegis of society for Mining and Metallurgy and Exploration. It was found with the sole purpose of kindling curiosity and intrests in the minds of the students of ISM and about the field of Mining Engg. The society collectively works in the way of making our presence known to the world as a potential body of mining engineers. We organise several events ranging from technical events such as guest lecture, case study and paper presentation to group discussions etc. for the benefit of the students. We also serve as an interface between our glorious alumni and our student members in order to enrich them with our alumni's priceless knowledge.</small>
+						    </div>
 						</div>
 					</div>
-					<div class="dropdown-divider m-0" style="opacity: 0.25;"></div>
-					<!-- content - khanan and sme -->
-					<div class="p-3">
-						<div class="abt-content text-lighter fade show active"><small>The annual Mining Fest “KHANAN-2019” aims to bring the students from Different institutions offering mining & allied courses in the country on a common platform and would help them showcasing their skills. A series of events including panel discussion, guest lectures by eminent personalities in the industry, paper presentations, case studies etc. would be conducted during the three day festival. It would provide a real life environment to the aspiring Mining & Earth Sciences students and would expose them to the real world problems and challenges in the industry. The summit seeks to improve decision making and problem solving skills of the students and inculcate a sense of professionalism among them.</small></div>
-						<div class="abt-content text-lighter fade d-none"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quo esse aperiam modi veritatis autem soluta saepe! Maxime voluptatem ipsam ad excepturi assumenda cupiditate quaerat eligendi.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, voluptates tenetur saepe fugiat sunt dolores. Lorem ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nostrum. Deserunt consequatur odit et, autem quis vel cumque, provident aut.</small></div>
-					</div>
 				</div>
-			</div>
-			<!-- .photos-bottom -->
-			<div class="col-md-12">
-				<div class="d-flex">
-					<div class="box3" style="flex: 1;"><img src="img/my/gallery3.jpg" class="img-fluid" style="object-fit: cover; height: 180px; width: 100%;"></div>
-					<div class="box4 my-shadow" style="flex: 1;"><img src="img/my/gallery17.jpg" class="img-fluid" style="object-fit: cover; height: 240px; width: 100%;"></div>
-					<div class="box3" style="flex: 2;"><img src="img/my/cover2.JPG" class="img-fluid" style="object-fit: cover; height: 180px; width: 100%; filter: brightness(70%);"></div>
+				<!-- .photos-bottom -->
+				<div class="col-md-12">
+					<div class="d-flex">
+						<div class="box3" style="flex: 1;"><img src="img/my/gallery3.jpg" class="img-fluid" style="object-fit: cover; height: 180px; width: 100%;"></div>
+						<div class="box4 my-shadow" style="flex: 1;"><img src="img/my/gallery17.jpg" class="img-fluid" style="object-fit: cover; height: 240px; width: 100%;"></div>
+						<div class="box3" style="flex: 2;"><img src="img/my/cover2.jpg" class="img-fluid" style="object-fit: cover; height: 180px; width: 100%; filter: brightness(70%);"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 
 
 
-<!-- Events -->
-<div id="events">
+	<!-- Events -->
+	<div id="events">
 		<div class="design1"></div>
 		<div class="container">
 			<!-- event heading -->
 			<h2 class="text-white text-center mb-5" style="font-family: oswald, sans-serif; font-size: 40px; letter-spacing: 5px;"><span class="heading">EVENTS</span></h2>
-	
+
 			
 			<div class="accordion" id="event1_accordion">
 				<div class="row">
@@ -146,7 +186,7 @@
 							</div>
 						</div>
 					</div>
-	
+
 					<!-- Ideate -->
 					<div class="col-md-3 order-md-2">
 						<div class="box" data-toggle="collapse" data-target="#ideate">
@@ -181,7 +221,7 @@
 							</div>
 						</div>
 					</div>
-	
+
 					<!-- Robotica -->
 					<div class="col-md-3 order-md-3">
 						<div class="box" data-toggle="collapse" data-target="#robotica">
@@ -203,7 +243,7 @@
 							</div>
 						</div>
 					</div>
-	
+
 					<!-- Minnovare -->
 					<div class="col-md-3 order-md-4">
 						<div class="box" data-toggle="collapse" data-target="#minnovare">
@@ -240,8 +280,8 @@
 					</div>
 				</div>
 			</div>
-	
-	
+
+
 			<div class="accordion" id="event2_accordion">
 				<div class="row">
 					<!-- Quizzine -->
@@ -342,8 +382,8 @@
 					</div>
 				</div>
 			</div>
-	
-	
+
+
 			<div class="accordion" id="event3_accordion">
 				<div class="row">
 					<!-- Placement Fever -->
@@ -483,7 +523,7 @@
 					</div>
 				</div>
 			</div>
-	
+
 		</div>	<!-- end of container -->
 	</div>  <!-- end of #events -->
 
@@ -492,210 +532,221 @@
 
 
 
-<!-- Campus Ambassador -->
-<div id="campus_amb" class="py-5">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<img src="img/my/ca_main.png" alt="" class="w-100">
-			</div>
-			<div class="col-md-6">
-				<h2 class="text-white pt-3" style="flex: 1; font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;"><span class="heading">CAMPUS AMBASSADOR</span></h2>
-				<p class="text-lighter mt-5">Looking for a chance to lead your college? Register for campus ambassador now and get a chance to be an extended part of organizing team of KHANAN'19. Here we offer you a chance to represent your college and get acknowledged for this enthusiastic work. All you have to do is lead the contigent from your college and make sure everyone there gets to know about it. Bear the responsibility and get ready for a thrilling experience.</p>
-				<div id="ca-btn">
-					<a href="#!" class="btn btn-lg btn-gradient my-shadow rounded-pill px-4 mt-4">APPLY NOW</a>
+	<!-- Campus Ambassador -->
+	<div id="campus_amb" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="img/my/ca_main.png" alt="" class="w-100">
+				</div>
+				<div class="col-md-6">
+					<h2 class="text-white pt-3" style="flex: 1; font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;"><span class="heading">CAMPUS AMBASSADOR</span></h2>
+					<p class="text-lighter mt-5">Looking for a chance to lead your college? Register for campus ambassador now and get a chance to be an extended part of organizing team of KHANAN'19. Here we offer you a chance to represent your college and get acknowledged for this enthusiastic work. All you have to do is lead the contigent from your college and make sure everyone there gets to know about it. Bear the responsibility and get ready for a thrilling experience.</p>
+					<div id="ca-btn">
+						<a href="#!" class="btn btn-lg btn-gradient my-shadow rounded-pill px-4 mt-4">APPLY NOW</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 
-<!-- Our Sponsors -->
-<div id="sponsors">
-	<div class="container">
-		<h2 class="text-white pt-3" style="flex: 1; font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;"><span class="heading">OUR SPONSORS</span></h2>
-		<!-- current sponsors -->
-		<div class="row pt-3 pb-4">
-			<div class="col-md-3 col-6">
-				<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
-			</div>
-			<div class="col-md-3 col-6">
-				<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
-			</div>
-			<div class="col-md-3 col-6">
-				<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
-			</div>
-			<div class="col-md-3 col-6">
-				<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
-			</div>
-		</div>
-
-		<!-- past sponsors -->
-		<h5 class="text-center mt-3 mb-4"><span class="rounded-pill py-1 px-4 btn-lighter">PAST SPONSORS</span></h4>
-		<div class="row">
-			<div class="col-md-2 offset-md-2 col-6">
-				<div class="my-card"><img src="img/my/sponsors/mcl.png" alt=""></div>
-			</div>
-			<div class="col-md-2 col-6">
-				<div class="my-card"><img src="img/my/sponsors/nmdc.png" alt=""></div>
-			</div>
-			<div class="col-md-2 col-4">
-				<div class="my-card"><img src="img/my/sponsors/SECL.png" alt=""></div>
-			</div>
-			<div class="col-md-2 col-4">
-				<div class="my-card"><img src="img/my/sponsors/ncl.png" alt=""></div>
-			</div>
-			<div class="col-md-2 offset-md-2 col-4">
-				<div class="my-card"><img src="img/my/sponsors/ccl.png" alt=""></div>
-			</div>
-			<div class="col-md-2 col-4">
-				<div class="my-card"><img src="img/my/sponsors/souled.png" alt=""></div>
-			</div>
-			<div class="col-md-2 col-4">
-				<div class="my-card"><img src="img/my/sponsors/lenskart.png" alt=""></div>
-			</div>
-			<div class="col-md-2 col-4">
-				<div class="my-card"><img src="img/my/sponsors/ucil.png" alt=""></div>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<!-- Gallery -->
-<div id="gallery">
-	<!-- Gallery heading -->
-	<h2 class="text-white text-center mb-5" style="font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;"><span class="heading">GALLERY</span></h2>
-
-	<div class="container">
-		
-		<div class="owl-carousel owl-theme">
-			<div> <img src="img/my/gallery1.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery2.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery3.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery4.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery5.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery6.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery7.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery8.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery9.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery10.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery11.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery12.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery13.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery14.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery15.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery16.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery17.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery18.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery19.jpg" class="img-fluid"> </div>
-			<div> <img src="img/my/gallery20.jpg" class="img-fluid"> </div>
-	  </div>
-		
-	</div>
-</div>
-
-<!-- footer -->
-<div id="footer" >
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 text-center mb-4">
-				<img src="img/my/logo.png" class="img-fluid" width="100px">
-				<p class="m-0">6 - 8 September 2019</p>
-				<p class="m-0"><small>Mine The Gem Inside You</small></p>
-				<a href="#!" class="btn btn-gradient btn-sm rounded-pill border-0 px-4 mt-2">REGISTER</a>
-			</div>
-			<div class="col-md-4">
-				<h2 class="text-white text-center mb-4 mt-4" style="flex: 1; font-family: oswald, sans-serif; font-size: 30px; letter-spacing: 5px;"><span class="heading">CONTACT US</span></h2>
-				<div class="text-center">
-					<p>+91-7004400176 (Secretary, SME IIT-ISM)</p>
-					<p>+91-7050796930 (Additional Secretary, SME IIT-ISM)</p>
-					<p>khanan.sme@gmail.com</p>
+	<!-- Our Sponsors -->
+	<div id="sponsors">
+		<div class="container">
+			<h2 class="text-white pt-3" style="flex: 1; font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;"><span class="heading">OUR SPONSORS</span></h2>
+			<!-- current sponsors -->
+			<div class="row pt-3 pb-4">
+				<div class="col-md-3 col-6">
+					<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
+				</div>
+				<div class="col-md-3 col-6">
+					<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
+				</div>
+				<div class="col-md-3 col-6">
+					<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
+				</div>
+				<div class="col-md-3 col-6">
+					<img src="https://img.freepik.com/free-vector/elegant-gold-glitter-background_1048-9420.jpg?size=338&ext=jpg" alt="" class="w-100">
 				</div>
 			</div>
-			<div class="col-md-4 text-center">
-				<h2 class="text-white text-center mb-4 mt-4" style="flex: 1; font-family: oswald, sans-serif; font-size: 30px; letter-spacing: 5px;"><span class="heading">FOLLOW US</span></h2>
-				<img src="https://img.icons8.com/color/48/000000/facebook-circled.png">
-				<img src="https://img.icons8.com/color/48/000000/instagram-new.png">
-				<img src="https://img.icons8.com/bubbles/2x/organization.png" alt="" width="48px">
+
+			<!-- past sponsors -->
+			<h5 class="text-center mt-3 mb-4"><span class="rounded-pill py-1 px-4 btn-lighter">PAST SPONSORS</span></h4>
+				<div class="row">
+					<div class="col-md-2 offset-md-2 col-6">
+						<div class="my-card"><img src="img/my/sponsors/mcl.png" alt=""></div>
+					</div>
+					<div class="col-md-2 col-6">
+						<div class="my-card"><img src="img/my/sponsors/nmdc.png" alt=""></div>
+					</div>
+					<div class="col-md-2 col-4">
+						<div class="my-card"><img src="img/my/sponsors/secl.png" alt=""></div>
+					</div>
+					<div class="col-md-2 col-4">
+						<div class="my-card"><img src="img/my/sponsors/ncl.png" alt=""></div>
+					</div>
+					<div class="col-md-2 offset-md-2 col-4">
+						<div class="my-card"><img src="img/my/sponsors/ccl.png" alt=""></div>
+					</div>
+					<div class="col-md-2 col-4">
+						<div class="my-card"><img src="img/my/sponsors/souled.png" alt=""></div>
+					</div>
+					<div class="col-md-2 col-4">
+						<div class="my-card"><img src="img/my/sponsors/lenskart.png" alt=""></div>
+					</div>
+					<div class="col-md-2 col-4">
+						<div class="my-card"><img src="img/my/sponsors/ucil.png" alt=""></div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<hr>
-		<p class="m-0 text-center">&copy; KHANAN 2019 | All Rights Reserved</p>
-	</div>
-</div>
+
+
+		<!-- Gallery -->
+		<div id="gallery">
+			<!-- Gallery heading -->
+			<h2 class="text-white text-center mb-5" style="font-family: oswald, sans-serif; font-size: 34px; letter-spacing: 5px;"><span class="heading">GALLERY</span></h2>
+
+			<div class="container">
+
+				<div class="owl-carousel owl-theme">
+					<div> <img src="img/my/gallery1.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery2.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery3.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery4.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery5.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery6.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery7.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery8.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery9.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery10.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery11.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery12.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery13.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery14.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery15.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery16.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery17.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery18.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery19.jpg" class="img-fluid"> </div>
+					<div> <img src="img/my/gallery20.jpg" class="img-fluid"> </div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div id="footer" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-center mb-4">
+						<img src="img/my/logo.png" class="img-fluid" width="100px">
+						<p class="m-0">6 - 8 September 2019</p>
+						<p class="m-0"><small>Mine The Gem Inside You</small></p>
+						<a href="#!" class="btn btn-gradient btn-sm rounded-pill border-0 px-4 mt-2">REGISTER</a>
+					</div>
+					<div class="col-md-4">
+						<h2 class="text-white text-center mb-4 mt-4" style="flex: 1; font-family: oswald, sans-serif; font-size: 30px; letter-spacing: 5px;"><span class="heading">CONTACT US</span></h2>
+						<div class="text-center">
+							<p>+91-7004400176 (Secretary, SME IIT-ISM)</p>
+							<p>+91-7050796930 (Add. Secretary, SME IIT-ISM)</p>
+							<p><i class="fa fa-envelope mr-2"></i> khanan.sme@gmail.com</p>
+						</div>
+					</div>
+					<div class="col-md-4 text-center">
+						<h2 class="text-white text-center mb-4 mt-4" style="flex: 1; font-family: oswald, sans-serif; font-size: 30px; letter-spacing: 5px;"><span class="heading">FOLLOW US</span></h2>
+						<img src="https://img.icons8.com/color/48/000000/facebook-circled.png">
+						<img src="https://img.icons8.com/color/48/000000/instagram-new.png">
+						<img src="https://img.icons8.com/bubbles/2x/organization.png" alt="" width="48px">
+					</div>
+				</div>
+				<hr>
+				<p class="m-0 text-center">&copy; KHANAN 2019 | All Rights Reserved</p>
+			</div>
+		</div>
 
 
 
-<!-- Optional Bootstrap JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<!-- Optional Bootstrap JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
-<!-- owl carousel -->
-<script src="owlcarousel/owl.carousel.min.js"></script>
-
-
-
-<!-- BG Move on hover script -->
-<script>
-	var windowWidth = $(window).width();
-
-	$('.page-container').mousemove(function(event){
-		var moveX = (($(window).width() / 2) - event.pageX) * 0.05;
-		var moveY = (($(window).height() / 2) - event.pageY) * 0.05;
-		$('.page-back').css('margin-left', moveX + 'px');
-		$('.page-back').css('margin-top', moveY + 'px');
-	});
-</script>
+		<!-- owl carousel -->
+		<script src="owlcarousel/owl.carousel.min.js"></script>
 
 
-<!-- about us tabs -->
-<script>
 
-	var x = document.querySelectorAll(".abt-us .btn");
-	var y = document.querySelectorAll(".abt-us .abt-content");
-	var z = document.querySelectorAll(".abt-us .abt-heading");
+		<!-- BG Move on hover script -->
+		<script>
+			var windowWidth = $(window).width();
 
-	function activateAbtUs () {
-		for(var i = 0; i < x.length; i++) {
-			// x[i].classList.toggle('disabled');
-			y[i].classList.toggle('d-none');
-			y[i].classList.toggle('show');
-			z[i].classList.toggle('d-none');
-		}
-	}
-</script>
+			$('.page-container').mousemove(function(event){
+				var moveX = (($(window).width() / 2) - event.pageX) * 0.05;
+				var moveY = (($(window).height() / 2) - event.pageY) * 0.05;
+				$('.page-back').css('margin-left', moveX + 'px');
+				$('.page-back').css('margin-top', moveY + 'px');
+			});
+		</script>
 
 
-<!-- sponsors carousel -->
-<script>
-	$(document).ready(function(){
+		<!-- abt-heading change when left & right arrows are being clicked -->
+		<script>
+		    var a = document.querySelector("#pills-khanan-tab");
+		    var b = document.querySelector("#pills-sme-tab");
+		    var c = document.querySelector(".abt-heading");
+		    a.addEventListener('click',function () {
+		        c.innerHTML = "KHANAN 2019";
+		    });
+		    b.addEventListener('click',function () {
+		        c.innerHTML = "SME IIT-ISM";
+		    });
+		</script>
 
-		$('.owl-carousel').owlCarousel({
-			center: true,
-			items:2,
-			loop:true,
-			margin:10,
-			autoplay:true,
-			autoplayTimeout:2000,
-			autoplayHoverPause:false,
-			responsive:{
-				0:{
-					items:1,
-				},
-				600:{
-					items:3,
-				},
-				1000:{
-					items:4,
-				}
-			}
-		});
-	});
-</script>
+
+		<!-- sponsors carousel -->
+		<script>
+			$(document).ready(function(){
+
+				$('.owl-carousel').owlCarousel({
+					center: true,
+					items:2,
+					loop:true,
+					margin:10,
+					autoplay:true,
+					autoplayTimeout:2000,
+					autoplayHoverPause:false,
+					responsive:{
+						0:{
+							items:1,
+						},
+						600:{
+							items:3,
+						},
+						1000:{
+							items:4,
+						}
+					}
+				});
+			});
+		</script>
+
+
+		<!-- add class bg-dark and navbar-dark to .navbar div -->
+		<script>
+			function myFunction(x) {
+		    	if (x.matches) { // If media query matches
+		  	    	document.querySelector('.navbar').classList.add('bg-dark', 'navbar-dark');
+		        }	
+	        }
+
+			var x = window.matchMedia("(max-width: 575.98px)")
+			myFunction(x) // Call listener function at run time
+			x.addListener(myFunction) // Attach listener function on state changes
+			
+		</script>
 
 </body>
 </html>
