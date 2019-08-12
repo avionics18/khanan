@@ -332,9 +332,16 @@ span.heading{
 	position: relative;
 	z-index: 3;
 }
+#our-team .gradient img{
+	filter: grayscale(1);
+}
 #our-team .gradient:hover .gradient-box{
 	transform: scaleY(1);
 	transition: 0.4s;
+}
+#our-team .gradient:hover img{
+	filter: grayscale(0);
+	transition: 0.3s;
 }
 
 @media (max-width: 1199.98px){
