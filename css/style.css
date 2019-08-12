@@ -450,7 +450,7 @@ hr{
 		font-size: 12.8px;
 	}
 	#campus_amb{
-		background: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../img/my/ca_mobile.jpg') no-repeat center;
+		background: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../img/my/ca_mobile.png') no-repeat center;
 	}
 	#campus_amb h2{
 		text-align: center;
