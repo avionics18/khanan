@@ -110,36 +110,27 @@ nav .navbar-brand{
 /*Hero*/
 .page-container{
 	width: 100%;
-	height: 100vh;
+	height: 90vh;
 	position: relative;
 	overflow: hidden;
-	background-color: #fff;
 	margin-top: -126px;
-}
-
-.page-container .page-back{
-	width: 120%;
-	height: 120%;
-	left: -10%;
-	top: -10%;
-	position: absolute;
-	background-image: url('../img/my/11.jpg');
-	/*background-image: linear-gradient(black, black);*/
+	background-color: #666;
+	background-image: linear-gradient(0deg, #000 0%, transparent 50%, transparent 100%) ,url('../img/my/11.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
-	background-position: center -250px;
-	filter: blur(0px);
-	z-index: 2;
+	background-attachment: fixed;
 }
 
 .page-container img{
 	position: absolute;
-	top: 160px;
+	top: 200px;
 	z-index: 3;
 }
 
 .page-container .main-btn{
 	position: absolute;
-	top: 450px;
+	top: 500px;
 	text-align: center;
 	width: 100%;
 	z-index: 3;
@@ -378,9 +369,12 @@ span.heading{
 /* Gallery */
 #gallery{
 	padding: 80px 0;
-	background-image: url('../img/my/pattern2.png');
+	background-image: linear-gradient(0deg, rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url(../img/my/pattern2.png);
 	border-top: 10px solid #333;
 	border-bottom: 10px solid #333;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #0fa798 !important;
 }
 
 
